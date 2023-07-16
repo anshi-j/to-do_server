@@ -15,7 +15,7 @@ app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended : true}));
 app.use('/', routes);
 
-const PORT = process.env.port||8000;
+const PORT = process.env.PORT||8000;
 
 Connection();
 
